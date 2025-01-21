@@ -17,8 +17,15 @@ public class ProductGeneratorController {
 
     @GetMapping
     public String generateProduct() {
+        final String userPrompt = """
+            Generate 5 products with theses criterias:
+            Product has unique id, name, description, price, created at, updated at
+            Return array objects
+            Return only json format in your response
+            Json must not pretty
+        """;
         return chatClient.prompt()
-                .user("Generate 5 products")
+                .user(userPrompt)
                 .call()
                 .content();
     }
