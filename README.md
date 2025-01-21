@@ -62,12 +62,3 @@ Fichas de produto completas, prontas para uso em e-commerces ou marketplaces.
 - Exportação de produtos para arquivos CSV/JSON.
 
 ---
-
-## 🧩 Tecnologias Utilizadas
-
-- **Linguagens:** Python, JavaScript.
-- **Frameworks:** Django (backend), React (frontend).
-- **Banco de Dados:** PostgreSQL.
-- **Outros:** APIs de geração de imagens com IA.
-
----
