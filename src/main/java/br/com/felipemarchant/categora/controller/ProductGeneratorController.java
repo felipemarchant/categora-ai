@@ -22,6 +22,8 @@ public class ProductGeneratorController {
             Product has unique id, name, description, price, created at, updated at
             Return array objects
             Return only json format in your response
+            Use camelCase on attribute of json, not a value
+            Be creative
             Json must not pretty
         """;
         return chatClient.prompt()
