@@ -18,7 +18,7 @@ public class ProductGeneratorController {
     @GetMapping
     public String generateProduct() {
         final String userPrompt = """
-            Generate 5 products with theses criterias:
+            Generate 5 products with theses criteria:
             Product has unique id, name, description, price, created at, updated at
             Return array objects
             Return only json format in your response
